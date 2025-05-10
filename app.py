@@ -8,7 +8,7 @@ app = Flask(__name__)  # Flask 애플리케이션 객체 생성
 
 @app.route("/")         # 루트 URL에 대한 라우팅 설정
 def hello():
-    return "Hello, World!"  # 브라우저에 출력될 텍스트
+    return "bye bye world!"  # 브라우저에 출력될 텍스트
 
 if __name__ == "__main__":
     app.run(debug=True)  # 개발 서버 실행 (디버그 모드)
